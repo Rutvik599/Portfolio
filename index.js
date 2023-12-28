@@ -1,5 +1,5 @@
 var typed = new Typed(".auto-type",{
-    strings : ["Rutvik Patel","Web Developer","UI/UX Designer","AI/ML Engineer","Android Devloper"],
+    strings : ["Rutvik Patel","a FullStack Developer","a UI/UX Designer","a AI/ML Engineer","a Android Devloper"],
     typeSpeed:100,
     backSpeed:100,
     loop:true
@@ -9,7 +9,7 @@ window.onload = function() {
   var isLaptopOrPC = window.innerWidth >= 768; // Adjust the threshold as needed
 
   if (!isLaptopOrPC) {
-      alert("This site is designed for laptops and PCs \nSo that Content Will be not Visible on this Device");
+      alert("This Site is Made For Laptop/PCs\nFor Watch the content of this site Enable Desktop Mode of Your Browser");
   }
 };
 

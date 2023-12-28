@@ -86,7 +86,7 @@ body::-webkit-scrollbar-thumb{
   font-size: 20px;
 }
 .auto-type{
-  color: #5610e2;
+  color: #c6ab12;
 }
 .setimg{
   width: 60%;
@@ -192,6 +192,7 @@ margin-top: 10px;
   align-items: center;
   color: var(--font-color);
   font-weight: 100;
+  border-top: black solid 1px;
 }
 .about{
   width: 100%;
@@ -208,6 +209,7 @@ margin-top: 10px;
 }
 .text{
   display: flex;
+  height: 330px;
   flex-direction: column;
   margin: 0px 10px 0px 10px;
 }
