@@ -209,7 +209,6 @@ margin-top: 10px;
 }
 .text{
   display: flex;
-  height: 330px;
   flex-direction: column;
   margin: 0px 10px 0px 10px;
 }
