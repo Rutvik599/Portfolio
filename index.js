@@ -27,7 +27,7 @@ function project(str){
         window.open("https://github.com/Rutvik599/Snappy1", "_blank");
     }
     else if(str==='5'){
-      window.open("https://drive.google.com/file/d/15arBEmNuoJ4ZoG5P3UnhY-Dm2tO0epZ-/view?usp=drive_link", "_blank");
+      window.open("https://drive.google.com/file/d/1WYsBOsto1BWoxZgATojTGQqqAJmTG3eh/view?usp=sharing", "_blank");
     }
 }
 document.querySelectorAll('a').forEach(anchor => {
