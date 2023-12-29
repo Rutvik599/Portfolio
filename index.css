@@ -16,6 +16,7 @@
 }
 body {
   margin: 0px;
+  background-color: var(--primarycolor);
 }
 body::-webkit-scrollbar{
   background-color: transparent;
@@ -98,9 +99,10 @@ body::-webkit-scrollbar-thumb{
   width: 100%;
   display: flex;
   flex-direction: column;
+  border-bottom: black solid 1px;
 }
 .projectname{
-  color: #042238;
+  color: var(--font-color);
   font-family:'normal';
   font-weight: 100;
 }
@@ -123,6 +125,7 @@ body::-webkit-scrollbar-thumb{
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  background-color: white;
   transition: scale 0.3s ease;
   &:hover{
     scale: 1.02;
@@ -153,12 +156,12 @@ margin-top: 10px;
   display: flex;
   width: 99%;
   height: 200px;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom: 10px;
   background-color: var(--primarycolor);
 }
 .skill .frontend{
-  width: 25%;
+  width: 20%;
   height: 100%;
   font-weight: 100;
   font-family: thin1;
@@ -174,6 +177,7 @@ margin-top: 10px;
   width: 100%;
   display: flex;
   flex-wrap:wrap;
+  justify-content: center;
 }
 .frontendskill h3{
   margin: 0px 0px 5px 5px;
