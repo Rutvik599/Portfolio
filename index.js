@@ -65,4 +65,7 @@ function opensocial(str){
   else if(str==='5'){
     window.open("mailto:rutvikpatel21@gnu.ac.in", "_blank");
   }
+  else if(str ==='6'){
+    window.open("https://www.linkedin.com/in/rutvik-patel-950261277/", "_blank");
+  }
 }
