@@ -150,7 +150,6 @@ color: var(--font-color);
 }
 .what{
   font-weight: 100;
-  font-size: larger;
 }
 .frontendskill h2{
   font-size: small;
@@ -328,7 +327,10 @@ color: transparent;
  }
 .about{
   flex-direction: column;
-  
+}
+.what{
+  font-family: thin1;
+  font-size: larger;
 }
 .rutvikimage{
   width: 70%;
