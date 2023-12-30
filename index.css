@@ -263,7 +263,82 @@ background: linear-gradient(101deg, rgba(255,21,21,1) 0%, rgba(222,228,49,1) 30%
 color: transparent;
 }
 @media (max-width: 768px) {
-  body {
-  display: none;
+  body{
+    width: 99%;
+    overflow-x: hidden;
   }
+ .header{
+  display: none;
+ }
+ .navbar{
+  position: fixed;
+  padding: 10px 0px 5px 5px ;
+  width: 100%;
+ }
+ .info{
+  flex-direction: column;
+ }
+ .hello{
+  width: 95%;
+ }
+ .im{
+  font-size:medium;
+  
+ }
+ .im span{
+  font-size:medium;
+ }
+ .image{
+  display: none;
+ }
+ .projectcard{
+  flex-direction: column;
+  
+ }
+ .snappy, .walker, .shoper{
+  width: 80%;
+ }
+ .skills{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+ }
+ .skill{
+  width: 70%;
+  height: 500px;
+  align-items: center;
+  flex-direction: column;
+ }
+ .skill .frontend{
+  width: 100%;
+  margin-top: 10px;
+ }
+.about{
+  flex-direction: column;
+  
+}
+.rutvikimage{
+  width: 70%;
+  height: 80%;
+}
+.text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.contacttext{
+  font-size:larger;
+}
+.contactimage{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.contactimage h3{
+  margin: 10px;
+}
 }

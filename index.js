@@ -9,7 +9,7 @@ window.onload = function() {
   var isLaptopOrPC = window.innerWidth >= 768; // Adjust the threshold as needed
 
   if (!isLaptopOrPC) {
-      alert("This Site is Made For Laptop/PCs\nFor Watch the content of this site Enable Desktop Mode of Your Browser");
+      alert("Open Desktop Mode For better Experience !");
   }
 };
 
