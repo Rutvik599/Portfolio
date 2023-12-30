@@ -270,8 +270,12 @@ color: transparent;
  .header{
   display: none;
  }
+ .name{
+  font-size: larger;
+ }
  .navbar{
   position: fixed;
+  z-index: 2;
   padding: 10px 0px 5px 5px ;
   width: 100%;
  }
@@ -293,7 +297,9 @@ color: transparent;
  }
  .projectcard{
   flex-direction: column;
-  
+ }
+ .projectname{
+  font-size: larger;
  }
  .snappy, .walker, .shoper{
   width: 80%;
