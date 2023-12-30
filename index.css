@@ -132,7 +132,8 @@ body::-webkit-scrollbar-thumb{
 }
 .snappy1{
   margin: 10px;
-  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+  font-family: thin1;
 }
 .snappydescription{
   font-size: small;
@@ -149,6 +150,10 @@ color: var(--font-color);
 }
 .what{
   font-weight: 100;
+  font-size: larger;
+}
+.frontendskill h2{
+  font-size: small;
 }
 .skill{
   display: flex;
@@ -271,7 +276,7 @@ color: transparent;
   display: none;
  }
  .name{
-  font-size: larger;
+  font-size: large;
  }
  .navbar{
   position: fixed;
@@ -299,7 +304,7 @@ color: transparent;
   flex-direction: column;
  }
  .projectname{
-  font-size: larger;
+  font-size: large;
  }
  .snappy, .walker, .shoper{
   width: 80%;
