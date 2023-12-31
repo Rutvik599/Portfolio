@@ -5,13 +5,13 @@ var typed = new Typed(".auto-type",{
   loop:true
 })
 
-window.onload = function() {
+/*window.onload = function() {
 var isLaptopOrPC = window.innerWidth >= 768; // Adjust the threshold as needed
 
 if (!isLaptopOrPC) {
     alert("Open Desktop Mode For better Experience !");
 }
-};
+};*/
 
 function project(str){
   if(str==='2'){
