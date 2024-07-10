@@ -5,14 +5,6 @@ var typed = new Typed(".auto-type",{
   loop:true
 })
 
-/*window.onload = function() {
-var isLaptopOrPC = window.innerWidth >= 768; // Adjust the threshold as needed
-
-if (!isLaptopOrPC) {
-    alert("Open Desktop Mode For better Experience !");
-}
-};*/
-
 function project(str){
   if(str==='2'){
       window.open("https://github.com/Rutvik599/Walkers", "_blank");
@@ -29,7 +21,7 @@ function project(str){
   else if(str==='5'){
     myDiv.classList.toggle("open");
       header.classList.toggle("openH");
-    window.open("https://drive.google.com/file/d/1WYsBOsto1BWoxZgATojTGQqqAJmTG3eh/view?usp=sharing", "_blank");
+    window.open("https://drive.google.com/file/d/1-oQ-pGwfzpIiUrCZEh9-_cbXn9uh9Xi6/view?usp=sharing", "_blank");
   }
 }
 document.querySelectorAll('a').forEach(anchor => {

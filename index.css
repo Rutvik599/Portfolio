@@ -173,7 +173,7 @@ color: var(--font-color);
   background-color: var(--primarycolor);
   border-radius: 10px;
 }
-.frontend h2{
+.frontend h3{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -269,6 +269,8 @@ background: linear-gradient(101deg, rgba(255,21,21,1) 0%, rgba(222,228,49,1) 30%
 -webkit-background-clip: text;
 color: transparent;
 }
+
+
 @media (max-width: 768px) {
   body{
     width: 99%;
@@ -341,20 +343,23 @@ color: transparent;
   transition: transform 0.4s ease;
  }
  .info{
-  flex-direction: column;
+  background-color: var(--other-primary);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
  }
  .hello{
-  width: 95%;
- }
- .im{
-  font-size:medium;
-  
- }
- .im span{
-  font-size:medium;
+  width: 50%;
+  height: 300px;
  }
  .image{
-  display: none;
+  height: 100%;
+ }
+ .im{
+  font-size:small;
+ }
+ .im .someinfo{
+  font-size:12px;
  }
  .projectcard{
   flex-direction: column;
